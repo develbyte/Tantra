@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.tantra.proto;
+
+option java_package = "com.tantra.proto";
+option java_outer_classname = "JobSpecProto";
+
+message JobSpec {
+  string id = 1;
+  string pipeline_id = 2;
+  string node_id = 3;
+  string image = 4;
+  repeated string command = 5;
+  map<string, string> env = 6;
+  repeated string inputs = 7;
+  repeated string outputs = 8;
+  ResourceSpec resources = 9;
+  int32 retries = 10;
+  int32 timeout_seconds = 11;
+}
+
+message ResourceSpec {
+  string cpu = 1;
+  string memory = 2;
+}
+
+message ExecutionResult {
+  string run_id = 1;
+  string status = 2;
+  string message = 3;
+  int64 started_at = 4;
+  int64 completed_at = 5;
+  map<string, string> outputs = 6;
+}
+

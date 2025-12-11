@@ -1,0 +1,38 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+target/
+dist/
+build/
+*.class
+*.jar
+*.war
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Git repos (local)
+tantra-repos/
+
+# Database
+*.db
+*.sqlite
+
