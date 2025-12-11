@@ -1,6 +1,6 @@
-# Tantra - UI-First DAG Builder
+# 🔱 Tantra
 
-A visual, web-first DAG authoring and config platform where analysts design, test, review, version, and deploy pipelines entirely through UI without git friction.
+A modern orchestration engine that enables configurable, reproducible, and language-agnostic workflow execution.
 
 ## Architecture
 
