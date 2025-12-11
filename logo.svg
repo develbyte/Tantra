@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" rx="25" fill="#FFFF66"/>
+  <!-- Emoji and text positioned to be centered as a unit in the 600px canvas -->
+  <text x="120" y="100" font-size="100" text-anchor="middle" dominant-baseline="central">🔱</text>
+  <text x="250" y="100" font-family="DM Mono, monospace" font-size="80" font-weight="bold" fill="#1A1A1A" dominant-baseline="central">Tantra</text>
+</svg>
